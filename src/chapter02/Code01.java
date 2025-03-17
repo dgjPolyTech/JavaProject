@@ -7,6 +7,6 @@ public class Code01 {
         System.out.printf("프린트 f\n");
         System.out.printf("result: "+100+200);// result: 100200
         System.out.printf("result: "+(100+200));//result: 300
-        System.out.println(100+200+"won"); //300won
+        System.out.println(100+200+"won"); //300wonㅇㅇㅇ
     }
 }
