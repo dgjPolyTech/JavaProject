@@ -2,7 +2,7 @@ package chapter03;
 
 import java.util.Scanner;
 
-public class Lab03_01 {
+public class weightCalc {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
