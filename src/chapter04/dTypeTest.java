@@ -38,5 +38,24 @@ public class dTypeTest {
         
         // 실수형 데이터 타입
         float float1 = 123.456f;
+        float float2 = (float)200.123;
+        float float3 = short1;
+        float float4 = 100;
+        //float float4 = 100.0; // 이건 안됨.
+
+        double double1 = 555.456;
+        double double2 = float1;
+        double double3 = byte2;//실수는 정수를 포함하므로, 실수형에 정수형 데이터 대입할 수 있다.
+        double double4 = long3;
+        double double5 = 333; //
+
+        String str1 = new String("hello");
+        str1= "hello";
+        String str2 = new String("hello");
+
+        boolean bool4 = str1 == str2;
+        System.out.println("str1 == str2 : " + bool4); // 값은 hello로 같지만, 주소값이 달라 다르다고 판단하여, false로 나온다.
+        System.out.println("srt1.equals(str2) : " + str1.equals(str2)); // 때문에 string 값 비교시에는 equals를 쓰는게 좋다.
+
     }
 }
