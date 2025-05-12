@@ -15,6 +15,6 @@ public class hap02 {
 
             oddEven = "짝수";
         }
-        System.out.println(start+"부터 "+count+"까지의 합계: "+sum);
+        System.out.println(start+"부터 "+count+"까지의 "+oddEven+"의 합계: "+sum);
     }
 }
