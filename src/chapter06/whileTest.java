@@ -1,5 +1,6 @@
 package chapter06;
 
+//for문 처럼 활용
 public class whileTest {
     public static void main(String[] args) {
         int i = 0;
