@@ -5,6 +5,17 @@ public class Rabbit {
     private String shape;
     private int x, y;
 
+    public Rabbit(){ // 기본값
+        shape = "기본 토끼";
+        x = 30;
+        y = 30;
+    }
+
+    public Rabbit(String shape, int x, int y) { // 매개변수 줘서 생성.
+        this.shape = shape;
+        this.x = x;
+        this.y = y;
+    }
 
     public String getName() {
         return name;
