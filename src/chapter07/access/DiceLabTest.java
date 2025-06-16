@@ -15,7 +15,6 @@ public class DiceLabTest {
             d3.setNumber((int)(Math.random() * 6 + 1));
 
             if(d1.getNumber() == d2.getNumber() && d2.getNumber() == d3.getNumber()) {
-
                 break;
             }
         }
